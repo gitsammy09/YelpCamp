@@ -8,6 +8,10 @@ const CampGroundSchema = new Schema({
     price: Number,
     description: String,
     location: String,
+    author: {
+        type: Schema.Types.ObjectID,
+        ref: 'User'
+    },
     reviews: [
         {
             type: Schema.Types.ObjectId,
