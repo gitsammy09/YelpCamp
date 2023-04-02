@@ -1,3 +1,7 @@
+if(process.env.NODE_ENV !== "production"){
+    require('dotenv').config()
+}
+
 //Moduels
 const express = require('express');
 const mongoose = require('mongoose');
@@ -73,8 +77,6 @@ app.use('/campgrounds/:id/reviews', reviewRoutes);
 app.get('/',(req, res) => {
     res.render('home')
 })
-
-
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404))
