@@ -25,9 +25,18 @@ const sample = array => array[Math.floor(Math.random() * array.length)];
                 author: '6428f843f023bcb55f2406e3',
                 location: `${cities[random1000].city}, ${cities[random1000].state}`,
                 title: `${sample(descriptors)} ${sample(places)}`,
-                image: 'https://source.unsplash.com/collection/483251',
                 description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quos perspiciatis est repellendus, et facilis tenetur dolorem quaerat unde nostrum, facere assumenda eligendi. Nihil in, voluptate excepturi adipisci sit voluptatibus!',
-                price
+                price,
+                images: [
+                    {
+                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680573096/YelpCamp/csf3t4iqltu9kxjp1uxv.jpg',
+                      filename: 'YelpCamp/csf3t4iqltu9kxjp1uxv',
+                    },
+                    {
+                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680573097/YelpCamp/ojc5ayoucnktd9avtogk.jpg',
+                      filename: 'YelpCamp/ojc5ayoucnktd9avtogk',
+                    }
+                  ]
             })
             await camp.save();
         }    
