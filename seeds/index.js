@@ -35,12 +35,12 @@ const sample = array => array[Math.floor(Math.random() * array.length)];
                 },
                 images: [
                     {
-                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680573096/YelpCamp/csf3t4iqltu9kxjp1uxv.jpg',
-                      filename: 'YelpCamp/csf3t4iqltu9kxjp1uxv',
+                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680603614/YelpCamp/ylsstcmfd8iectfsdsd7.jpg',
+                      filename: 'YelpCamp/ylsstcmfd8iectfsdsd7',
                     },
                     {
-                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680573097/YelpCamp/ojc5ayoucnktd9avtogk.jpg',
-                      filename: 'YelpCamp/ojc5ayoucnktd9avtogk',
+                      url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680603617/YelpCamp/n1bvcpdkffntbdac9fnn.jpg',
+                      filename: 'YelpCamp/n1bvcpdkffntbdac9fnn',
                     }
                   ]
             })
