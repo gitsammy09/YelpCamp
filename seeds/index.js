@@ -27,6 +27,10 @@ const sample = array => array[Math.floor(Math.random() * array.length)];
                 title: `${sample(descriptors)} ${sample(places)}`,
                 description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quos perspiciatis est repellendus, et facilis tenetur dolorem quaerat unde nostrum, facere assumenda eligendi. Nihil in, voluptate excepturi adipisci sit voluptatibus!',
                 price,
+                geometry: {
+                    type:'Point',
+                    coordinates: [-113.1331, 47.0202]
+                },
                 images: [
                     {
                       url: 'https://res.cloudinary.com/dgtxzvmez/image/upload/v1680573096/YelpCamp/csf3t4iqltu9kxjp1uxv.jpg',
